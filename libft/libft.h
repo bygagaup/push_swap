@@ -14,7 +14,9 @@
 # define LIBFT_H
 # include <string.h>
 # include <stdlib.h>
+# include <unistd.h>
 # include "libprintf.h"
+# define BUFF_SIZE 42
 
 typedef	struct		s_list
 {
@@ -93,5 +95,6 @@ char				*ft_strlowcase(char *str);
 char				*ft_strupcase(char *str);
 char				*ft_strjoin_free(char *s1, char *s2, int free1, int free2);
 char				*ft_strsub_free(char *s, unsigned int start, size_t len);
+int					get_next_line(const int fd, char **line);
 
 #endif

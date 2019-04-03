@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/fschille/CLionProjects/push_swap/checker.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/checker.c.o"
   "/Users/fschille/CLionProjects/push_swap/ft_check_argv.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_check_argv.c.o"
   "/Users/fschille/CLionProjects/push_swap/ft_creat_stack.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_creat_stack.c.o"
   "/Users/fschille/CLionProjects/push_swap/ft_operations.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_operations.c.o"
@@ -94,7 +95,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/fschille/CLionProjects/push_swap/libft/ft_write_u.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_write_u.c.o"
   "/Users/fschille/CLionProjects/push_swap/libft/ft_write_x.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_write_x.c.o"
   "/Users/fschille/CLionProjects/push_swap/libft/ft_write_xx.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_write_xx.c.o"
-  "/Users/fschille/CLionProjects/push_swap/push_swap.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
+  "/Users/fschille/CLionProjects/push_swap/libft/get_next_line.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

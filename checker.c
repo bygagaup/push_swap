@@ -13,20 +13,39 @@
 #include "libft/libft.h"
 #include "push_swap.h"
 
-int		main(int argc, char **argv)
+static void		ft_checker(t_g *w, int flag)
+{
+	char 	*line;
+	char 	*str;
+
+	str = ft_strnew(0);
+	while (get_next_line(0, &line))
+		str = ft_strjoin_free(str, line, 1, 1);
+	ft_printf("%s\n", str);
+	free(str);
+}
+
+int				main(int argc, char **argv)
 {
 	t_g		*w;
+	int		flag;
 
-	if (ft_creat_stack(ft_check_argv(argc, argv), &w) == 1 && ft_check_repeat(w, 0, 0, 0) == 1)
+	flag = 0;
+	if (argc > 1 && ft_strcmp(argv[1], "-v") == 0)
+	{
+		flag = 1;
+		argv++;
+	}
+	if (ft_creat_stack(ft_check_argv(argc - flag, argv), &w) == 1 && ft_check_repeat(w, 0, 0, 0) == 1)
 	{
 		ft_print_stack(w);
-		ft_sorting(w);
-		ft_print_stack(w);
-		free(w->a->elem);
-		free(w->a);
-		free(w->b->elem);
-		free(w->b);
-		free(w);
+		ft_checker(w, flag);
+	 	ft_print_stack(w);
+	 	free(w->a->elem);
+	 	free(w->a);
+	 	free(w->b->elem);
+	 	free(w->b);
+	 	free(w);
 	}
 	else
 		ft_printf("Error\n");

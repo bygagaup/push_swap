@@ -17,7 +17,7 @@ compillib:
 	make -C libft
 
 checker: compillib
-	gcc $(FLAG) $(FILECHE) -o checker
+	gcc  $(FILECHE) -o checker
 
 clean:
 	rm -rf

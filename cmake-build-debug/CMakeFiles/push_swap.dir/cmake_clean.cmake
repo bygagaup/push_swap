@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/push_swap.dir/push_swap.c.o"
   "CMakeFiles/push_swap.dir/ft_check_argv.c.o"
   "CMakeFiles/push_swap.dir/ft_creat_stack.c.o"
   "CMakeFiles/push_swap.dir/ft_print_stack.c.o"
@@ -8,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/ft_ra_rb_rr_rra_rrb.c.o"
   "CMakeFiles/push_swap.dir/ft_rrr.c.o"
   "CMakeFiles/push_swap.dir/ft_sorting.c.o"
+  "CMakeFiles/push_swap.dir/checker.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_discover.c.o"
@@ -90,6 +90,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ft_write_u.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_write_x.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_write_xx.c.o"
+  "CMakeFiles/push_swap.dir/libft/get_next_line.c.o"
   "push_swap.pdb"
   "push_swap"
 )
