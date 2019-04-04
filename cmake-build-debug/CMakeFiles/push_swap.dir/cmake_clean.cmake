@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/ft_ra_rb_rr_rra_rrb.c.o"
   "CMakeFiles/push_swap.dir/ft_rrr.c.o"
   "CMakeFiles/push_swap.dir/ft_sorting.c.o"
-  "CMakeFiles/push_swap.dir/checker.c.o"
+  "CMakeFiles/push_swap.dir/push_swap.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_discover.c.o"

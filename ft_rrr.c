@@ -13,9 +13,10 @@
 #include "libft/libft.h"
 #include "push_swap.h"
 
-void	ft_rrr(t_g *w)
+void	ft_rrr(t_g *w, int print)
 {
 	ft_operation_rev_rot(w->a);
 	ft_operation_rev_rot(w->b);
-	ft_printf("rrr\n");
+	if (print == 1)
+		ft_printf("rrr\n");
 }

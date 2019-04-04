@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/5F5566ED-0168-4B18-9B2A-D59C2B139192/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/4D2F60C1-AAA6-4143-B2F0-4DE2BA7C9169/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/5F5566ED-0168-4B18-9B2A-D59C2B139192/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/4D2F60C1-AAA6-4143-B2F0-4DE2BA7C9169/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -161,18 +161,18 @@ CMakeFiles/push_swap.dir/ft_sorting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/ft_sorting.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fschille/CLionProjects/push_swap/ft_sorting.c -o CMakeFiles/push_swap.dir/ft_sorting.c.s
 
-CMakeFiles/push_swap.dir/checker.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/checker.c.o: ../checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/checker.c.o   -c /Users/fschille/CLionProjects/push_swap/checker.c
+CMakeFiles/push_swap.dir/push_swap.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/push_swap.c.o: ../push_swap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/push_swap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/push_swap.c.o   -c /Users/fschille/CLionProjects/push_swap/push_swap.c
 
-CMakeFiles/push_swap.dir/checker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fschille/CLionProjects/push_swap/checker.c > CMakeFiles/push_swap.dir/checker.c.i
+CMakeFiles/push_swap.dir/push_swap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/push_swap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fschille/CLionProjects/push_swap/push_swap.c > CMakeFiles/push_swap.dir/push_swap.c.i
 
-CMakeFiles/push_swap.dir/checker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fschille/CLionProjects/push_swap/checker.c -o CMakeFiles/push_swap.dir/checker.c.s
+CMakeFiles/push_swap.dir/push_swap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/push_swap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fschille/CLionProjects/push_swap/push_swap.c -o CMakeFiles/push_swap.dir/push_swap.c.s
 
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
@@ -1263,7 +1263,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/ft_ra_rb_rr_rra_rrb.c.o" \
 "CMakeFiles/push_swap.dir/ft_rrr.c.o" \
 "CMakeFiles/push_swap.dir/ft_sorting.c.o" \
-"CMakeFiles/push_swap.dir/checker.c.o" \
+"CMakeFiles/push_swap.dir/push_swap.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_discover.c.o" \
@@ -1359,7 +1359,7 @@ push_swap: CMakeFiles/push_swap.dir/ft_sa_sb_ss_pa_pb.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_ra_rb_rr_rra_rrb.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_rrr.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_sorting.c.o
-push_swap: CMakeFiles/push_swap.dir/checker.c.o
+push_swap: CMakeFiles/push_swap.dir/push_swap.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_bzero.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_discover.c.o

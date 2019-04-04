@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/fschille/CLionProjects/push_swap/checker.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/fschille/CLionProjects/push_swap/ft_check_argv.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -360,6 +357,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/fschille/CLionProjects/push_swap/libft/libprintf.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/fschille/CLionProjects/push_swap/push_swap.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/fschille/CLionProjects/push_swap/push_swap.h">

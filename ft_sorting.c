@@ -132,19 +132,19 @@ void		ft_sorting(t_g *w)
 		{
 			if (w->a->elem[0] > w->a->elem[1])
 			{
-				ft_sa(w);
-				ft_print_stack(w);
+				ft_sa(w, 1);
+//				ft_print_stack(w);
 				i++;
 				if (w->a->elem[0] != s[0] && ((w->a->elem[0] != s[0] && w->a->elem[1] != b[0]) || (w->a->elem[0] != b[0] && w->a->elem[1] != s[0])) &&
 				w->a->elem[0] != s[1] && ((w->a->elem[0] != s[1] && w->a->elem[1] != b[1]) || (w->a->elem[0] != b[1] && w->a->elem[1] != s[1])))
 				{
-					ft_pb(w);
-					ft_print_stack(w);
+					ft_pb(w, 1);
+//					ft_print_stack(w);
 					i++;
 				}
 				else
 				{
-					ft_rra(w);
+					ft_rra(w, 1);
 					i++;
 				}
 			}
@@ -153,13 +153,13 @@ void		ft_sorting(t_g *w)
 				if (w->a->elem[0] != s[0] && ((w->a->elem[0] != s[0] && w->a->elem[1] != b[0]) || (w->a->elem[0] != b[0] && w->a->elem[1] != s[0])) &&
 				w->a->elem[0] != s[1] && ((w->a->elem[0] != s[1] && w->a->elem[1] != b[1]) || (w->a->elem[0] != b[1] && w->a->elem[1] != s[1])))
 				{
-					ft_pb(w);
-					ft_print_stack(w);
+					ft_pb(w, 1);
+//					ft_print_stack(w);
 					i++;
 				}
 				else
 				{
-					ft_rra(w);
+					ft_rra(w, 1);
 					i++;
 				}
 			}
@@ -175,39 +175,39 @@ void		ft_sorting(t_g *w)
 				if (w->b->elem[0] != s[0] && ((w->b->elem[0] != s[0] && w->b->elem[1] != m[0]) || (w->b->elem[0] != b[0] && w->b->elem[1] != s[0])) &&
 				w->b->elem[0] != s[1] && ((w->b->elem[0] != s[1] && w->b->elem[1] != m[1]) || (w->b->elem[0] != b[1] && w->b->elem[1] != s[1])))
 				{
-					ft_pa(w);
-					ft_print_stack(w);
+					ft_pa(w, 1);
+//					ft_print_stack(w);
 					i++;
 				}
 				else
 				{
-					ft_rrb(w);
+					ft_rrb(w, 1);
 					i++;
 				}
 			}
 			else
 			{
-					ft_sb(w);
-					ft_print_stack(w);
+					ft_sb(w, 1);
+//					ft_print_stack(w);
 					i++;
 				if (w->b->elem[0] != s[0] && ((w->b->elem[0] != s[0] && w->b->elem[1] != m[0]) || (w->b->elem[0] != b[0] && w->b->elem[1] != s[0])) &&
 					w->b->elem[0] != s[1] && ((w->b->elem[0] != s[1] && w->b->elem[1] != m[1]) || (w->b->elem[0] != b[1] && w->b->elem[1] != s[1])))
 				{
-					ft_pa(w);
-					ft_print_stack(w);
+					ft_pa(w, 1);
+//					ft_print_stack(w);
 					i++;
 				}
 				else
 				{
-					ft_rrb(w);
+					ft_rrb(w, 1);
 					i++;
 				}
 			}
 		}
 		if (w->b->elem[0] < w->b->elem[1])
 		{
-			ft_sb(w);
-			ft_print_stack(w);
+			ft_sb(w, 1);
+//			ft_print_stack(w);
 			i++;
 		}
 		m[0] = s[0];
@@ -217,16 +217,16 @@ void		ft_sorting(t_g *w)
 		if (ft_chek_pars(w) == 0)
 		{
 			while (tmp--)
-				ft_pa(w);
-			ft_pa(w);
+				ft_pa(w, 1);
+			ft_pa(w, 1);
 			i++;
-			ft_printf("operation - %d\n", i);
+//			ft_printf("operation - %d\n", i);
 			return ;
 		}
 		tmp++;
 		j--;
 	}
-	ft_pa(w);
+	ft_pa(w, 1);
 	i++;
-	ft_printf("operation - %d\n", i);
+//	ft_printf("operation - %d\n", i);
 }

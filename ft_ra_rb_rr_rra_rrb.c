@@ -13,33 +13,38 @@
 #include "libft/libft.h"
 #include "push_swap.h"
 
-void	ft_ra(t_g *w)
+void	ft_ra(t_g *w, int print)
 {
 	ft_operation_rot(w->a);
-	ft_printf("ra\n");
+	if (print == 1)
+		ft_printf("ra\n");
 }
 
-void	ft_rb(t_g *w)
+void	ft_rb(t_g *w, int print)
 {
 	ft_operation_rot(w->b);
-	ft_printf("rb\n");
+	if (print == 1)
+		ft_printf("rb\n");
 }
 
-void	ft_rr(t_g *w)
+void	ft_rr(t_g *w, int print)
 {
 	ft_operation_rot(w->a);
 	ft_operation_rot(w->b);
-	ft_printf("rr\n");
+	if (print == 1)
+		ft_printf("rr\n");
 }
 
-void	ft_rra(t_g *w)
+void	ft_rra(t_g *w, int print)
 {
 	ft_operation_rev_rot(w->a);
-	ft_printf("rra\n");
+	if (print == 1)
+		ft_printf("rra\n");
 }
 
-void	ft_rrb(t_g *w)
+void	ft_rrb(t_g *w, int print)
 {
 	ft_operation_rev_rot(w->b);
-	ft_printf("rrb\n");
+	if (print == 1)
+		ft_printf("rrb\n");
 }
