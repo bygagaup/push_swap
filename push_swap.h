@@ -48,5 +48,10 @@ void				ft_rrr(t_g *w, int print);
 void				ft_sorting(t_g *w);
 int 				ft_check_repeat(t_g *w, int i, int tmp, int size);
 int 				ft_chek_pars(t_g *w);
+int 		ft_intb(t_stc *o);
+int 		ft_intm(t_stc *o);
+int 		ft_intsb(t_stc *o, int b);
+int 		ft_intsm(t_stc *o, int m);
+void		ft_sorting2(t_g *w);
 
 #endif

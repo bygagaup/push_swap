@@ -7,6 +7,6 @@ set(CMAKE_C_STANDARD 99)
 
 file(GLOB LIBFT libft/*.c libft/*.h )
 
-set(SOURCES  push_swap.h ft_check_argv.c ft_creat_stack.c ft_print_stack.c ft_operations.c ft_sa_sb_ss_pa_pb.c ft_ra_rb_rr_rra_rrb.c ft_rrr.c ft_sorting.c push_swap.c)
+set(SOURCES  push_swap.h ft_check_argv.c ft_creat_stack.c ft_print_stack.c ft_operations.c ft_sa_sb_ss_pa_pb.c ft_ra_rb_rr_rra_rrb.c ft_rrr.c ft_sorting.c push_swap.c ft_sorting2.c)
 
 add_executable(push_swap ${SOURCES} ${LIBFT})

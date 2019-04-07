@@ -20,8 +20,8 @@ int		main(int argc, char **argv)
 	if (ft_creat_stack(ft_check_argv(argc, argv), &w) == 1 && ft_check_repeat(w, 0, 0, 0) == 1)
 	{
 //		ft_print_stack(w);
-		ft_sorting(w);
-		ft_print_stack(w);
+		ft_sorting2(w);
+//		ft_print_stack(w);
 		free(w->a->elem);
 		free(w->a);
 		free(w->b->elem);

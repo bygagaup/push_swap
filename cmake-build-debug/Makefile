@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/4D2F60C1-AAA6-4143-B2F0-4DE2BA7C9169/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/1E70F1F8-7C8B-49D7-9ABC-529D0B3C9864/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/4D2F60C1-AAA6-4143-B2F0-4DE2BA7C9169/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/1E70F1F8-7C8B-49D7-9ABC-529D0B3C9864/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/fschille/CLionProjects/push_swap/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/4D2F60C1-AAA6-4143-B2F0-4DE2BA7C9169/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/1E70F1F8-7C8B-49D7-9ABC-529D0B3C9864/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/4D2F60C1-AAA6-4143-B2F0-4DE2BA7C9169/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vlw0006wz/T/AppTranslocation/1E70F1F8-7C8B-49D7-9ABC-529D0B3C9864/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -338,6 +338,33 @@ ft_sorting.s: ft_sorting.c.s
 ft_sorting.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_sorting.c.s
 .PHONY : ft_sorting.c.s
+
+ft_sorting2.o: ft_sorting2.c.o
+
+.PHONY : ft_sorting2.o
+
+# target to build an object file
+ft_sorting2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_sorting2.c.o
+.PHONY : ft_sorting2.c.o
+
+ft_sorting2.i: ft_sorting2.c.i
+
+.PHONY : ft_sorting2.i
+
+# target to preprocess a source file
+ft_sorting2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_sorting2.c.i
+.PHONY : ft_sorting2.c.i
+
+ft_sorting2.s: ft_sorting2.c.s
+
+.PHONY : ft_sorting2.s
+
+# target to generate assembly for a file
+ft_sorting2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/ft_sorting2.c.s
+.PHONY : ft_sorting2.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -2640,6 +2667,9 @@ help:
 	@echo "... ft_sorting.o"
 	@echo "... ft_sorting.i"
 	@echo "... ft_sorting.s"
+	@echo "... ft_sorting2.o"
+	@echo "... ft_sorting2.i"
+	@echo "... ft_sorting2.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"

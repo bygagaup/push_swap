@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/fschille/CLionProjects/push_swap/ft_sorting2.c
+libft/libft.h
+/Users/fschille/CLionProjects/push_swap/libft/libft.h
+push_swap.h
+/Users/fschille/CLionProjects/push_swap/push_swap.h
+
 /Users/fschille/CLionProjects/push_swap/libft/libft.h
 string.h
 -
@@ -19,12 +25,6 @@ libprintf.h
 /Users/fschille/CLionProjects/push_swap/libft/libprintf.h
 stdarg.h
 -
-
-/Users/fschille/CLionProjects/push_swap/push_swap.c
-libft/libft.h
-/Users/fschille/CLionProjects/push_swap/libft/libft.h
-push_swap.h
-/Users/fschille/CLionProjects/push_swap/push_swap.h
 
 /Users/fschille/CLionProjects/push_swap/push_swap.h
 stdio.h

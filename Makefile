@@ -8,7 +8,7 @@ LIB = push_swap.h
 
 FLAG = -Wall -Wextra -Werror
 
-all: compillib $(NAME)
+all: compillib $(NAME) checker
 
 $(NAME): $(FILEPUS)
 	gcc $(FLAG) $(FILEPUS) -o $(NAME)
@@ -16,8 +16,8 @@ $(NAME): $(FILEPUS)
 compillib:
 	make -C libft
 
-checker: compillib
-	gcc  $(FILECHE) -o checker
+checker:
+	gcc $(FLAG) $(FILECHE) -o checker
 
 clean:
 	rm -rf

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/fschille/CLionProjects/push_swap/ft_rrr.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_rrr.c.o"
   "/Users/fschille/CLionProjects/push_swap/ft_sa_sb_ss_pa_pb.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_sa_sb_ss_pa_pb.c.o"
   "/Users/fschille/CLionProjects/push_swap/ft_sorting.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_sorting.c.o"
+  "/Users/fschille/CLionProjects/push_swap/ft_sorting2.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/ft_sorting2.c.o"
   "/Users/fschille/CLionProjects/push_swap/libft/ft_atoi.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
   "/Users/fschille/CLionProjects/push_swap/libft/ft_bzero.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/fschille/CLionProjects/push_swap/libft/ft_discover.c" "/Users/fschille/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_discover.c.o"

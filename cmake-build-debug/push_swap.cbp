@@ -104,6 +104,9 @@
 		<Unit filename="/Users/fschille/CLionProjects/push_swap/ft_sorting.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/fschille/CLionProjects/push_swap/ft_sorting2.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/fschille/CLionProjects/push_swap/libft/ft_atoi.c">
 			<Option target="push_swap"/>
 		</Unit>
